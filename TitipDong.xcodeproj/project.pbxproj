@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB3301EB3118085D13DC61F /* Pods_TitipDong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE601BBDDCE5940CC24FBD8 /* Pods_TitipDong.framework */; };
 		8007EBDE212199EC002FD4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8007EBDD212199EC002FD4AB /* AppDelegate.swift */; };
-		8007EBE0212199EC002FD4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8007EBDF212199EC002FD4AB /* ViewController.swift */; };
 		8007EBE3212199EC002FD4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8007EBE1212199EC002FD4AB /* Main.storyboard */; };
 		8007EBE5212199EE002FD4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8007EBE4212199EE002FD4AB /* Assets.xcassets */; };
 		8007EBE8212199EE002FD4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8007EBE6212199EE002FD4AB /* LaunchScreen.storyboard */; };
+		80E295002121CFF9000162DD /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E294FF2121CFF9000162DD /* GroceryItem.swift */; };
+		80E295022121D01F000162DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E295012121D01F000162DD /* User.swift */; };
+		80E295042121D075000162DD /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E295032121D075000162DD /* GroceryListTableViewController.swift */; };
+		80E295062121D1BF000162DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E295052121D1BF000162DD /* LoginViewController.swift */; };
+		80E295082121DAB3000162DD /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E295072121DAB3000162DD /* OnlineUsersTableViewController.swift */; };
+		80E2950A2121E9E6000162DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E295092121E9E6000162DD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C345DD79D0E2DC3B0919059 /* Pods-TitipDong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitipDong.release.xcconfig"; path = "Pods/Target Support Files/Pods-TitipDong/Pods-TitipDong.release.xcconfig"; sourceTree = "<group>"; };
+		3AE601BBDDCE5940CC24FBD8 /* Pods_TitipDong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TitipDong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8007EBDA212199EC002FD4AB /* TitipDong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitipDong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8007EBDD212199EC002FD4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8007EBDF212199EC002FD4AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8007EBE2212199EC002FD4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8007EBE4212199EE002FD4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8007EBE7212199EE002FD4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8007EBE9212199EE002FD4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E294FF2121CFF9000162DD /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		80E295012121D01F000162DD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		80E295032121D075000162DD /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		80E295052121D1BF000162DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80E295072121DAB3000162DD /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
+		80E295092121E9E6000162DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2E5A03377A874F7B36A6647 /* Pods-TitipDong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitipDong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TitipDong/Pods-TitipDong.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB3301EB3118085D13DC61F /* Pods_TitipDong.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08FC8464821E1C9867DE1E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AE601BBDDCE5940CC24FBD8 /* Pods_TitipDong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E674FA11711FE14E070154C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2E5A03377A874F7B36A6647 /* Pods-TitipDong.debug.xcconfig */,
+				2C345DD79D0E2DC3B0919059 /* Pods-TitipDong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8007EBD1212199EC002FD4AB = {
 			isa = PBXGroup;
 			children = (
 				8007EBDC212199EC002FD4AB /* TitipDong */,
 				8007EBDB212199EC002FD4AB /* Products */,
+				5E674FA11711FE14E070154C /* Pods */,
+				08FC8464821E1C9867DE1E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,35 @@
 		8007EBDC212199EC002FD4AB /* TitipDong */ = {
 			isa = PBXGroup;
 			children = (
+				80E294FD2121BF81000162DD /* Model */,
+				80E294FE2121BF88000162DD /* Controller */,
 				8007EBDD212199EC002FD4AB /* AppDelegate.swift */,
-				8007EBDF212199EC002FD4AB /* ViewController.swift */,
 				8007EBE1212199EC002FD4AB /* Main.storyboard */,
 				8007EBE4212199EE002FD4AB /* Assets.xcassets */,
 				8007EBE6212199EE002FD4AB /* LaunchScreen.storyboard */,
 				8007EBE9212199EE002FD4AB /* Info.plist */,
+				80E295092121E9E6000162DD /* GoogleService-Info.plist */,
 			);
 			path = TitipDong;
+			sourceTree = "<group>";
+		};
+		80E294FD2121BF81000162DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80E294FF2121CFF9000162DD /* GroceryItem.swift */,
+				80E295012121D01F000162DD /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80E294FE2121BF88000162DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80E295032121D075000162DD /* GroceryListTableViewController.swift */,
+				80E295052121D1BF000162DD /* LoginViewController.swift */,
+				80E295072121DAB3000162DD /* OnlineUsersTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8007EBEC212199EE002FD4AB /* Build configuration list for PBXNativeTarget "TitipDong" */;
 			buildPhases = (
+				C9ACB0160216D9CAC008249D /* [CP] Check Pods Manifest.lock */,
 				8007EBD6212199EC002FD4AB /* Sources */,
 				8007EBD7212199EC002FD4AB /* Frameworks */,
 				8007EBD8212199EC002FD4AB /* Resources */,
+				F7BFB0251EA26689752F79FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8007EBE8212199EE002FD4AB /* LaunchScreen.storyboard in Resources */,
+				80E2950A2121E9E6000162DD /* GoogleService-Info.plist in Resources */,
 				8007EBE5212199EE002FD4AB /* Assets.xcassets in Resources */,
 				8007EBE3212199EC002FD4AB /* Main.storyboard in Resources */,
 			);
@@ -130,13 +188,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9ACB0160216D9CAC008249D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TitipDong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BFB0251EA26689752F79FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TitipDong/Pods-TitipDong-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TitipDong/Pods-TitipDong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8007EBD6212199EC002FD4AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8007EBE0212199EC002FD4AB /* ViewController.swift in Sources */,
+				80E295002121CFF9000162DD /* GroceryItem.swift in Sources */,
+				80E295042121D075000162DD /* GroceryListTableViewController.swift in Sources */,
 				8007EBDE212199EC002FD4AB /* AppDelegate.swift in Sources */,
+				80E295082121DAB3000162DD /* OnlineUsersTableViewController.swift in Sources */,
+				80E295062121D1BF000162DD /* LoginViewController.swift in Sources */,
+				80E295022121D01F000162DD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +385,11 @@
 		};
 		8007EBED212199EE002FD4AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E5A03377A874F7B36A6647 /* Pods-TitipDong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF5V2V3C66;
 				INFOPLIST_FILE = TitipDong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +404,11 @@
 		};
 		8007EBEE212199EE002FD4AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C345DD79D0E2DC3B0919059 /* Pods-TitipDong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF5V2V3C66;
 				INFOPLIST_FILE = TitipDong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
